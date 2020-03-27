@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Open Sans Hebrew Condensed";
+  src: url("../fonts/OpenSansHebrewCondensed.eot"); /* IE9*/
+  src: url("../fonts/OpenSansHebrewCondensed.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/OpenSansHebrewCondensed.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/OpenSansHebrewCondensed.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/OpenSansHebrewCondensed.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansHebrew';
+    src: url('../fonts/Open Sans Gebrew Condensed/opensanshebrew-bold.eot');
+    src: url('../fonts/Open Sans Gebrew Condensed/opensanshebrew-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Open Sans Gebrew Condensed/opensanshebrew-bold.woff2') format('woff2'),
+         url('../fonts/Open Sans Gebrew Condensed/opensanshebrew-bold.woff') format('woff'),
+         url('../fonts/Open Sans Gebrew Condensed/opensanshebrew-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "servant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ 
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "cssnano": "^4.1.10",
+    "gulp": "github:gulpjs/gulp",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

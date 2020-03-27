@@ -1,0 +1,65 @@
+.features {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	padding-top: 35px;
+	padding: 0 40px;
+	padding-bottom: 20px;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+	@media (min-width: $screen-lg) {
+		padding-top: 70px;
+		} 
+
+	&__wrap {
+		display: flex;
+		margin-top: 45px;
+		flex-wrap: wrap;
+		justify-content: center;
+width: 100%;
+
+
+		@media (min-width: $screen-md) {
+			justify-content: space-between;
+		}
+
+		&__text {
+			font-family: 'Open Sans';
+			font-size: 14px;
+			line-height: 180%;
+			text-align: center;
+			color: #000000;
+		}
+	}
+
+	&__item {
+		width: 65px;
+		padding-top: 84px;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin-right: 30px;
+
+		&--ship {
+			background-image: url('../img/policies/1.png');
+		}
+
+		&--return {
+			background-image: url('../img/policies/2.png');
+		}
+		&--pay {
+			background-image: url('../img/policies/3.png');
+		}
+		&--custom {
+			background-image: url('../img/policies/4.png');
+		}
+
+		&--warr {
+			background-image: url('../img/policies/5.png');
+		}
+		&--who {
+			background-image: url('../img/policies/6.png');
+		}
+	}
+}

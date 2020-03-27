@@ -1,0 +1,35 @@
+.payment {
+	background: white;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	align-items: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+
+	@media (min-width: $screen-lg) {
+		margin-top: 40px;
+		padding-top: 52px;
+		padding-bottom: 41px;
+	}
+
+	&__systems-wrap {
+		display: flex;
+		
+	}
+
+	&__text {
+		font-family: 'Open Sans';
+		font-size: 14px;
+		line-height: 19px;
+		color: #979797;
+	}
+
+	&__copyright {
+		font-family: 'Open Sans';
+		font-size: 14px;
+		line-height: 200%;
+	}
+}
